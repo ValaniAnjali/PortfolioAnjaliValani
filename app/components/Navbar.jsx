@@ -46,6 +46,10 @@ const Navbar = () => {
   Contact
   <Image src={assets.arrow_icon} alt=' ' className='w-3' />
 </a>
+  {/* Add mobile menu icon */}
+  <div className='md:hidden' onClick={openMenu}>
+                    <Image src={assets.menu_black} alt='Menu' className='w-6 cursor-pointer' />
+                </div>
 
         </div>
         {/* mobile menu */}
