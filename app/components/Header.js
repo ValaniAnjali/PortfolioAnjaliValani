@@ -50,17 +50,28 @@ const Header = () => {
         </div>
 
         {/* Social Media Icons Section */}
-        <motion.div className='flex gap-6 mt-6'
-        initial={{y:30,opacity:0}}
-        whileInView={{y:0,opacity:1}}
-        transition={{duration:0.6,delay:1.2}}
+        <motion.div 
+    className='flex flex-wrap justify-center gap-2 sm:gap-4 mt-6 w-full' // Use flex-wrap and gap for spacing
+    initial={{ y: 30, opacity: 0 }}
+    whileInView={{ y: 0, opacity: 1 }}
+    transition={{ duration: 0.6, delay: 1.2 }}
+>
+    {contactTools.map((tool, index) => (
+        <a 
+            key={index} 
+            href={tool.link} 
+            target='_blank' 
+            rel='noopener noreferrer' 
+            className='flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
         >
-            {contactTools.map((tool, index) => (
-                <a key={index} href={tool.link} target='_blank' rel='noopener noreferrer' className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
-                    <Image src={tool.icon} alt={`${tool.link} Icon`} className='w-6 h-6'/>
-                </a>
-            ))}
-        </motion.div>
+            <Image src={tool.icon} alt={`${tool.link} Icon`} className='w-6 h-6' />
+        </a>
+    ))}
+</motion.div>
+
+
+
+
     </div>
   )
 }
