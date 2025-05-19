@@ -5,7 +5,7 @@ const projects = [
     title: 'StarLite',
     category: 'Android',
     description: 'A Java-based Android application demonstrating animations, intents, and SQLite CRUD operations. This project was originally developed as part of an interview task. Although time constraints affected the initial delivery, it is now fully functional and working well',
-    image:'../components/projimages/starlite.png',
+    image:'/images/starlite.png',
     video: 'https://tinyurl.com/2a78jv2w',
     liveLink: null,
     sourceCodeLink: 'https://github.com/ValaniAnjali/StarLite'
