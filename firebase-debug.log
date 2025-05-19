@@ -1,0 +1,175 @@
+[debug] [2025-05-01T18:26:36.300Z] ----------------------------------------------------------------------
+[debug] [2025-05-01T18:26:36.303Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-01T18:26:36.304Z] CLI Version:   14.2.1
+[debug] [2025-05-01T18:26:36.304Z] Platform:      win32
+[debug] [2025-05-01T18:26:36.304Z] Node Version:  v22.12.0
+[debug] [2025-05-01T18:26:36.305Z] Time:          Thu May 01 2025 23:56:36 GMT+0530 (India Standard Time)
+[debug] [2025-05-01T18:26:36.305Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-01T18:26:36.323Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-01T18:26:36.324Z] > authorizing via signed-in user (anjalivalani728@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Admin\OneDrive\Desktop\nextjsportfolio\anjalivalani
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-05-01T18:28:06.993Z] Checked if tokens are valid: false, expires at: 1745669176980
+[debug] [2025-05-01T18:28:06.993Z] Checked if tokens are valid: false, expires at: 1745669176980
+[debug] [2025-05-01T18:28:06.993Z] > refreshing access token with scopes: []
+[debug] [2025-05-01T18:28:06.998Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-05-01T18:28:06.998Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-05-01T18:28:07.405Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-05-01T18:28:07.405Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-05-01T18:28:07.418Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-05-01T18:28:07.419Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"portfolio","name":"anjalivalani"}
+[debug] [2025-05-01T18:28:09.020Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2025-05-01T18:28:09.021Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2025-05-01T18:28:09.280Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID portfolio. Please try again with a unique project ID.
+[debug] [2025-05-01T18:28:25.958Z] ----------------------------------------------------------------------
+[debug] [2025-05-01T18:28:25.962Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-01T18:28:25.962Z] CLI Version:   14.2.1
+[debug] [2025-05-01T18:28:25.963Z] Platform:      win32
+[debug] [2025-05-01T18:28:25.963Z] Node Version:  v22.12.0
+[debug] [2025-05-01T18:28:25.963Z] Time:          Thu May 01 2025 23:58:25 GMT+0530 (India Standard Time)
+[debug] [2025-05-01T18:28:25.963Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-01T18:28:25.973Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-01T18:28:25.974Z] > authorizing via signed-in user (anjalivalani728@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Admin\OneDrive\Desktop\nextjsportfolio\anjalivalani
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-05-01T18:28:37.683Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:28:37.683Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:28:37.685Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-05-01T18:28:38.541Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-05-01T18:28:38.541Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2025-05-01T18:28:58.969Z] ----------------------------------------------------------------------
+[debug] [2025-05-01T18:28:58.973Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-01T18:28:58.973Z] CLI Version:   14.2.1
+[debug] [2025-05-01T18:28:58.973Z] Platform:      win32
+[debug] [2025-05-01T18:28:58.974Z] Node Version:  v22.12.0
+[debug] [2025-05-01T18:28:58.974Z] Time:          Thu May 01 2025 23:58:58 GMT+0530 (India Standard Time)
+[debug] [2025-05-01T18:28:58.974Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-01T18:28:58.985Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-01T18:28:58.985Z] > authorizing via signed-in user (anjalivalani728@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Admin\OneDrive\Desktop\nextjsportfolio\anjalivalani
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-05-01T18:29:29.878Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:29.879Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:29.880Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-05-01T18:29:29.881Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"anjalivalaniportfolio","name":"anjalivalaniportfolio"}
+[debug] [2025-05-01T18:29:31.725Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-05-01T18:29:31.725Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.7484704074369304623"}
+[debug] [2025-05-01T18:29:31.727Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:31.727Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:31.727Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7484704074369304623 [none]
+[debug] [2025-05-01T18:29:33.187Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7484704074369304623 200
+[debug] [2025-05-01T18:29:33.188Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7484704074369304623 {"name":"operations/create_project.global.7484704074369304623","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"1040218625644","projectId":"anjalivalaniportfolio","lifecycleState":"ACTIVE","name":"anjalivalaniportfolio","createTime":"2025-05-01T18:29:32.487365Z"}}
+[debug] [2025-05-01T18:29:33.195Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:33.196Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:33.199Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/anjalivalaniportfolio:addFirebase [none]
+[debug] [2025-05-01T18:29:36.948Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/anjalivalaniportfolio:addFirebase 200
+[debug] [2025-05-01T18:29:36.949Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/anjalivalaniportfolio:addFirebase {"name":"operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh"}
+[debug] [2025-05-01T18:29:36.949Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:36.950Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:36.951Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh [none]
+[debug] [2025-05-01T18:29:38.154Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh 200
+[debug] [2025-05-01T18:29:38.154Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh {"name":"operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh"}
+[debug] [2025-05-01T18:29:38.658Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-05-01T18:29:38.660Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:38.661Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:38.662Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh [none]
+[debug] [2025-05-01T18:29:39.643Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh 200
+[debug] [2025-05-01T18:29:39.644Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh {"name":"operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh"}
+[debug] [2025-05-01T18:29:40.647Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-05-01T18:29:40.648Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:40.648Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:40.649Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh [none]
+[debug] [2025-05-01T18:29:41.754Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh 200
+[debug] [2025-05-01T18:29:41.754Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh {"name":"operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh"}
+[debug] [2025-05-01T18:29:43.760Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-05-01T18:29:43.762Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:43.762Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:43.763Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh [none]
+[debug] [2025-05-01T18:29:44.697Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh 200
+[debug] [2025-05-01T18:29:44.697Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh {"name":"operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh"}
+[debug] [2025-05-01T18:29:48.705Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-05-01T18:29:48.707Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:48.708Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:48.710Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh [none]
+[debug] [2025-05-01T18:29:49.494Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh 200
+[debug] [2025-05-01T18:29:49.494Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh {"name":"operations/workflows/ZmQwMDFhOTEtYWUwNS00MWYyLWJiNzUtNDhjZGJhNTM3Y2Rh","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"anjalivalaniportfolio","projectNumber":"1040218625644","displayName":"anjalivalaniportfolio","name":"projects/anjalivalaniportfolio","resources":{"hostingSite":"anjalivalaniportfolio"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: anjalivalaniportfolio
+[info]    - Project Name: anjalivalaniportfolio
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/anjalivalaniportfolio/overview
+[info] i  Using project anjalivalaniportfolio (anjalivalaniportfolio) 
+[info] 
+=== Hosting Setup
+[debug] [2025-05-01T18:29:49.513Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:49.513Z] Checked if tokens are valid: true, expires at: 1746127686406
+[debug] [2025-05-01T18:29:49.513Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/anjalivalaniportfolio [none]
+[debug] [2025-05-01T18:29:50.620Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/anjalivalaniportfolio 200
+[debug] [2025-05-01T18:29:50.620Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/anjalivalaniportfolio {"projectId":"anjalivalaniportfolio","projectNumber":"1040218625644","displayName":"anjalivalaniportfolio","name":"projects/anjalivalaniportfolio","resources":{"hostingSite":"anjalivalaniportfolio"},"state":"ACTIVE","etag":"1_42499e9d-a509-4f0c-9955-4c2713f8e493"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
