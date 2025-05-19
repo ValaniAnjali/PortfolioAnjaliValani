@@ -303,7 +303,7 @@ const Projects = () => {
               transition: { duration: 1.2, delay: 0.1 },
             }}
           >
-              {/* <img src={image} alt={title} className="w-full h-48 object-cover mb-4 rounded-xl" /> */}
+            <img src={image} alt={title} className="w-full h-48 object-cover mb-4 rounded-xl" /> 
             <h3 className="text-xl font-semibold mb-2">{title}</h3>
             <p className="text-gray-600 text-sm mb-4">{description}</p>
             
