@@ -1,4 +1,3 @@
-import '../components/projimages'
 const projects = [
   {
     id: 1,
