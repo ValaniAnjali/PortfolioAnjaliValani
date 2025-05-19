@@ -1,10 +1,11 @@
+import '../components/projimages'
 const projects = [
   {
     id: 1,
     title: 'StarLite',
     category: 'Android',
     description: 'A Java-based Android application demonstrating animations, intents, and SQLite CRUD operations. This project was originally developed as part of an interview task. Although time constraints affected the initial delivery, it is now fully functional and working well',
-    image:'https://tinyurl.com/4apjftm2',
+    image:'../components/projimages/starlite.png',
     video: 'https://tinyurl.com/2a78jv2w',
     liveLink: null,
     sourceCodeLink: 'https://github.com/ValaniAnjali/StarLite'
