@@ -1,6 +1,11 @@
 
 
 export const experienceData = [
+   {
+    title: "Bytes Bizz App Development Internship",
+    description: "Working as an Android Developer and Trainee, creating apps using Java and Firebase.",
+    certificateLink: "https://drive.google.com/file/d/11L62MMdRlKenyHQ5BavVoPeSP6yWzebh/view?usp=sharing", //after certificate comes put here
+  },
   
   {
     title: "Brainy Beam App Development Internship",
@@ -16,7 +21,7 @@ export const experienceData = [
   {
     title: "Sukhsangam UI/UX Design Internship",
     description: "Designed user-friendly UI/UX for websites and apps using Figma and Adobe XD.",
-    certificateLink: "https://drive.google.com/file/d/144-f_ATsvaPbb1AqPZm4B7xxyR50UVk-/view?usp=sharing",//after certificate comes update here
+    certificateLink: "https://drive.google.com/file/d/1N5STCBFviO-0TGCIUahUXoMwjuV2ixoG/view?usp=sharing",//after certificate comes update here
   },
   {
     title: "Mahee saree Center- Website (Freelancing work)",
