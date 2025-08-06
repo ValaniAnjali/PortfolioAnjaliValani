@@ -37,7 +37,7 @@ const projects = [
     image: '/images/avfurnitureshop.png',
     video: 'https://www.youtube.com/watch?v=8UHZmJu0cYY',
     liveLink: 'https://avfurnitureshop.netlify.app/',
-    sourceCodeLink: 'https://github.com/ValaniAnjali/AVFurnitureShop'
+    sourceCodeLink: 'https://github.com/ValaniAnjali/furnitureweb'
   },
   {
     id: 5,
