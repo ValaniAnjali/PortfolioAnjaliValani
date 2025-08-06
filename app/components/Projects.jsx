@@ -36,7 +36,7 @@ const projects = [
     description: 'A feature-rich furniture shopping website built with the MERN stack, designed with separate admin and user interfaces. The admin panel allows for seamless product management, while regular users can browse, view, and explore products with ease. ',
     image: '/images/avfurnitureshop.png',
     video: 'https://www.youtube.com/watch?v=8UHZmJu0cYY',
-    liveLink: https://avfurnitureshop.netlify.app/,
+    liveLink: 'https://avfurnitureshop.netlify.app/',
     sourceCodeLink: 'https://github.com/ValaniAnjali/AVFurnitureShop'
   },
   {
